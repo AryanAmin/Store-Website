@@ -28,32 +28,25 @@
         </div>
 
         <div class="slideshow-container">
-            <div class="mySlides fade">
-                <img src="store.jpg" style="width:100%;">
+            <div class="mySlides">
+                <img src="Store.JPG", width="100%", height="600px">
                 <div class="text"> Located at 1077 Weber Street East #5 Kitchener, ON, N2A 3Y5</div>
             </div>
         </div>
 
         <div class="slideshow-container">
-            <div class="mySlides fade">
-                <img src="pizza.jpg" style="width:100%;">
+            <div class="mySlides">
+                <img src="Shawarma.jpg", width="100%", height="600px">
                 <div class="text"> Our famous Shawarma pizza served with our delicious dressings</div>
             </div>
         </div>
 
         <div class="slideshow-container">
-            <div class="mySlides fade">
-                <img src="plate.jpg" style="width:100%;">
+            <div class="mySlides">
+                <img src="shawarmaplate.jpg ", width="100%", height="600px">
                 <div class="text"> Chicken Shawarma served with rice and salad and topped with our delicious dressings</div>
             </div>
         </div>
-
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-
         <div id="Store-name">
             <h1>
                 Family Pizza and Shawarma
@@ -99,5 +92,21 @@
                 Located at 1077 Weber Street East #5 Kitchener, ON, N2A 3Y5
             </h3>
         </div>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 5000); // Change image every 5 seconds
+            }
+        </script>
     </body>
 </html>
