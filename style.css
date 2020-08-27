@@ -289,20 +289,14 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#wrap{
+#wrap-image{
     background-image: url("images/shawarmawrap.jpg");
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #appetizers-image{
-    background-image: url("images/fries.jfif");
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#combo-image{
-    background-image: url("images/wrapcombo.jfif");
+    background-image: url("images/shawarmapoutine.jpg");
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
