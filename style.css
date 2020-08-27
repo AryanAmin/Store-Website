@@ -19,7 +19,6 @@
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
-    transition: ease-in-out;
 }
 .header a.logo{
     font-size: 25px;
@@ -144,6 +143,7 @@
 
 #contact{
     background-color: black;
+    text-align: center;
 }
 #location, #hours{
     color: white;
@@ -152,16 +152,13 @@
     text-align: left;
     font-size: 20px;
     margin-left: 25px;
-    margin-top: 75px;
+    margin-top: 55px;
+    text-align: center;
 }
 #hours{
     margin-top: 25px;
 }
-#facebookimg{
-    width: 15px;
-    height: 25px;
 
-}
 #contact img{
     height: 100px;
     width: 400px;
@@ -181,7 +178,7 @@
     margin-top: 50px;
 }
 
-#menu-div {
+.menu-div {
     width: 90%;
     position: relative;
     overflow: hidden;
@@ -199,7 +196,7 @@ h3 {
     padding: 0;
 }
 
-#menu-div img {
+.menu-div img {
     display: block;
     margin-top: 10px;
     margin-right: 10px;
@@ -208,7 +205,7 @@ h3 {
     width: 200px;
 }
 
-#menu-div p{
+.menu-div p{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -216,22 +213,27 @@ h3 {
     margin-inline-end: 0px;
 }
 
-#menu-div a{
+.menu-div a{
     color: black;
     text-decoration: none;
 }
 
-#sub-menu-div{
+.sub-menu-div{
     float: left;
-    width: 50%;
+    width: 570px;
+    background-color: #ff7070;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    font-style: italic;
 }
 @media screen and (max-width: 700px){
-    #sub-menu-div{
+    .sub-menu-div{
         width: 100%
     }
 }
-#sauce-menu-div, #drinks{
-    width: 90%;
+.sauce-menu-div, .drinks{
+    width: 100%;
     position: relative;
     overflow: hidden;
     height: fit-content;
@@ -240,7 +242,7 @@ h3 {
     padding: 10px;
     font-size: 150%;
 }
-#sauce-menu-div img, #drinks img{
+.sauce-menu-div img, .drinks img{
     display: block;
     margin-top: 10px;
     margin-right: 10px;
@@ -248,14 +250,60 @@ h3 {
     height: 150px;
     width: 200px;
 }
-#sauce-menu-div p, #drinks p{
+.sauce-menu-div p, .drinks p{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-#sauce-menu-div a, #drinks a{
+.sauce-menu-div a, .drinks a{
     color: black;
     text-decoration: none;
+}
+#pizza > p, #appetizers > p, #plate > p, #wrap > p, #combos > p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+#cheesepizza, #fries{
+    margin-left: 450px;
+    margin-top: 50px;
+}
+#onionrings, #salad, #rice-chicken{
+    margin-top: 50px;
+}
+#singlepizza, #fries, #poutine, #falafelplate, #falafelwrap, #burgercombo, #salad{
+    margin-left: 150px;
+}
+#pizza-image{
+    background-image: url("images/shawarmapizza.JPG");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#plate-image{
+    background-image: url("images/shawarmaplate.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#wrap{
+    background-image: url("images/shawarmawrap.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#appetizers-image{
+    background-image: url("images/fries.jfif");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#combo-image{
+    background-image: url("images/wrapcombo.jfif");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
