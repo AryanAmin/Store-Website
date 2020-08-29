@@ -2,6 +2,10 @@
     background-color: white;
     overflow: hidden;
     padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 .header img{
     height: 50px;
@@ -271,7 +275,7 @@ h3 {
     margin-left: 450px;
     margin-top: 50px;
 }
-#onionrings, #salad, #rice-chicken{
+#onionrings, #salad, #rice-chicken, #falafelcombo{
     margin-top: 50px;
 }
 #singlepizza, #fries, #poutine, #falafelplate, #falafelwrap, #burgercombo, #salad{
